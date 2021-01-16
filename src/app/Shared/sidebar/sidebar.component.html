@@ -10,14 +10,19 @@
                 </div>
             </li>
             <li>
-                <a href="dashboard.html" class="waves-effect"><i class="glyphicon glyphicon-fire fa-fw"></i>
-                    Dashboard</a>
+                <a [routerLink]="[ '/' ]" >
+                    <i class="glyphicon glyphicon-fire fa-fw"></i> 
+                Dashboard</a>
             </li>
             <li>
-                <a href="profile.html" class="waves-effect"><i class="ti-user fa-fw"></i>Profile</a>
+                <a [routerLink]="[ '/dashboard/Porfile' ]">
+                    <i class="ti-user fa-fw"></i>
+                Profile</a>
             </li>
             <li>
-                <a href="basic-table.html" class="waves-effect"><i class="ti-layout fa-fw"></i>Basic-Table</a>
+                <a [routerLink]="[ '/dashboard/Table' ]">
+                    <i class="ti-layout fa-fw"></i>
+                Basic-Table</a>
             </li>
             <li>
                 <a href="themifyicon.html" class="waves-effect"><i class="ti-face-smile fa-fw"></i> Icons</a>
@@ -27,7 +32,9 @@
                     Map</a>
             </li>
             <li>
-                <a href="blank.html" class="waves-effect"><i class="ti-files fa-fw"></i> Blank Page</a>
+                <a [routerLink]="[ '/dashboard/Blank' ]">
+                    <i class="ti-files fa-fw"></i>
+                    Blank Page</a>
             </li>
             <li>
                 <a href="404.html" class="waves-effect"><i class="ti-info fa-fw"></i> Error 404</a>
